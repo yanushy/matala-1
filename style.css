@@ -1,0 +1,61 @@
+body{
+    background-color: yellow;
+}
+#top 
+{
+    background-color: aqua;
+}
+#middle 
+{
+    background-color: royalblue;
+}
+#last
+{
+    background-color: red;
+}
+#cardsSec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+.mainSec{
+   display: flex;
+   justify-self: center;
+   align-items: center;
+   gap:16px;
+}
+.main{
+    width:75%;
+}
+.imgs{
+    width:25%;
+    
+}
+.card {
+    width: 320px;
+    height: 200px;
+    border: 1px dotted black;
+    text-align: center;
+}
+
+.card > img {
+    width: 100%;
+    /* max-height: 180px; Set your desired maximum height here */
+    height: 180px;
+    object-fit: cover;
+}
+p{
+    margin:0;
+}
+footer{
+    background-image: url('/imgs/banana.jpeg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+ul{
+    display: flex;
+    justify-content:space-around ;
+}

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="./Document_files/style.css"></head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>End of the page </li>
+                <li>Go to the last section</li>
+                <li>Go to the top</li>
+                <li>Go to the top </li>
+            </ul>
+        </nav>
+    </header>
+    <section id="top" class="mainSec">
+        <img class="imgs" src="./Document_files/banana.jpeg">
+        <div class="main">
+            <h2>Description</h2>
+            <p>The banana plant is the largest herbaceous flowering plant.[10]
+                All the above-ground parts of a banana plant grow from a structure usually called a "corm".[11] Plants
+                are normally tall and fairly sturdy with a treelike appearance, but what appears to be a trunk is
+                actually a "false stem" or pseudostem. Bananas grow in a wide variety of soils, as long as the soil is
+                at least 60 centimetres (2.0 ft) deep, has good drainage and is not compacted.[12] Banana plants are
+                among the fastest growing of all plants, with daily surface growth rates recorded
+                from 1.4 square metres (15 sq ft) to 1.6 square metres </p>
+        </div>
+    </section>
+    <section id="middle" class="mainSec">
+        <img class="imgs" src="./Document_files/banana2.jpeg">
+        <div class="main">
+            <h2>Taxonomy</h2>
+            <p>The genus Musa was created by Carl Linnaeus in 1753.[36]
+                The name may be derived from Antonius Musa, physician to
+                the Emperor Augustus, or Linnaeus may have adapted the Arabic
+                word for banana, mauz.[37] According to Roger Blench, the
+                ultimate origin of musa is in the Trans–New Guinea languages,
+                whence they were borrowed into the Austronesian languages
+                and across Asia, via the Dravidian languages of India,
+                into Arabic as a Wanderwort.[38]</p>
+        </div>
+    </section>
+    <section id="end" class="mainSec">
+        <img class="imgs" src="./Document_files/banana3.jpg">
+        <div class="main">
+            <h2>Historical cultivation</h2>
+            <p>The earliest domestication of bananas (Musa spp.) was from naturally occurring parthenocarpic (seedless)
+                individuals of Musa banksii in New Guinea. These were cultivated by Papuans before the arrival of
+                Austronesian-speakers. Numerous phytoliths of bananas have been recovered from the Kuk Swamp
+                archaeological site and dated to around 10,000 to 6,500 BP.[56][57][58] Foraging humans in this area
+                began domestication in the late Pleistocene using transplantation and early cultivation methods.[59][60]
+                Various investigations[60][59] – including Denham et al.</p>
+        </div>
+    </section>
+    <section id="cardsSec">
+        <h2></h2>
+        <div class="card">
+            <img src="./Document_files/card1.jpg">
+            <p>Bananas boast a cheerful and 
+                classic yellow hue, radiating a vibrant energy 
+                that is instantly recognizable. This sunny color 
+                is not only visually appealing but also indicative of the
+                 fruit's ripeness.</p>
+        </div>
+        <div class="card">
+            <img src="./Document_files/card2.png">
+            <p>The gentle curve of a banana gives it a distinctive and ergonomic shape. This natural bend makes it easy to peel and enjoy, 
+                while also contributing to the
+                 banana's unique appearance.</p>
+        </div>
+        <div class="card">
+            <img src="./Document_files/card3.jpeg">
+            <p>The smooth contours of a banana
+                 create a seamless transition
+                  from top to bottom. 
+                  This sleek design not only
+                   enhances the fruit's aesthetic appeal but also makes it a delight to hold and eat.</p>
+        </div>
+        <div class="card">
+            <img src="./Document_files/card4.jpg">
+            <p>Before ripening into their iconic yellow, bananas often start with a subtle green tint. This early color variation adds an interesting element to the banana's journey from the orchard to the fruit bowl.</p>
+        </div>
+        <div class="card">
+            <img src="./Document_files/card5.jpeg">
+            <p>As bananas mature, they transform into a golden yellow, signaling the peak of ripeness. This rich color is not only a visual indicator but also a promise of the fruit's sweet and creamy flavor.</p>
+        </div>
+        <div class="card">
+            <img src="./Document_files/card6.jpeg">
+            <p>While yellow is the most common color, bananas can exhibit various shades, including pale yellow, deep yellow, and even hints of green. This diversity adds visual interest to the bunch.</p>
+        </div>
+        <div class="card">
+            <img src="./Document_files/card7.jpg">
+            <p>Bananas are characterized by their compact and elongated form, creating an elegant silhouette. This simplicity contributes to the fruit's popularity as a convenient, on-the-go snack.</p>
+        </div>
+        <div class="card">
+            <img src="./Document_files/card8.jpeg">
+            <p>The banana's peel, with its slightly rough texture, provides a tactile contrast to the fruit's smooth interior. Peeling a banana becomes a satisfying experience, unveiling the delicious treat within.</p>
+        </div>
+    </section>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>

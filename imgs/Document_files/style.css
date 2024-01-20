@@ -1,0 +1,43 @@
+#top 
+{
+    background-color: aqua;
+}
+#middle 
+{
+    background-color: royalblue;
+}
+#end
+{
+    background-color: red;
+}
+#cardsSec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.mainSec{
+   display: flex;
+   justify-self: center;
+   align-items: center;
+   gap:16px;
+}
+.main{
+    width:75%;
+}
+.imgs{
+    width:25%;
+    
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 320px;
+}
+
+.card > img {
+    width: 100%;
+    max-height: 100%; /* Set your desired maximum height here */
+    object-fit: cover;
+}
